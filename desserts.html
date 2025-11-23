@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dessertz</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .offer{
+                text-align: center;
+                font-weight: bold;
+                color: #f4d5ab;
+                
+            }
+            .name{
+                display: inline-block;
+                vertical-align: top;
+                text-align: left;
+                border: 2px;
+                border-style: solid;
+                border-width: 0px;
+                background-color: #F8C9C3;
+                font-family: montez,cursive;
+                width:150px;
+                text-align: center;
+                font-size: large;
+            }
+            .menu{
+                display: inline-block;
+                vertical-align:top;
+                padding-left: 150px;
+            }
+            .menu h4{
+                display: inline-block;
+                cursor: pointer;
+                margin-top: 26px;
+                margin-left: 60px;
+                color: #e7c18c;
+            }
+            /* .content{
+                font-size: 0;
+            }
+            .cakes{
+                display: inline-block;
+                vertical-align: top;
+                font-size: 16px;
+                max-width: 70%;
+                padding: 10px;
+                margin-left: 100px;
+                align-items: center;
+            }
+            .products{
+                display: inline-block;
+                vertical-align: top;
+                font-size: 16px;
+                max-width: 35%;
+                padding: 10px;
+            } */
+             .cakes img{
+                width:200px;
+                height:200px;
+                padding-left:10px;
+                border-radius: 50px;
+                cursor: pointer;
+            }
+            img:hover{
+                /* color: #F8C9C3; */
+                background-color: rgba(255, 185, 185, 0.785);
+            }
+            .search{
+                width: 100px;
+                border: 2px;
+                border-style: solid;
+                border-color: #c67a70;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            h4:hover{
+                background-color: #c67a70;
+                color: white;
+            }
+            .products{
+                font-weight: bold;
+                color: #c67a70;}
+
+            li{
+                color: rgb(190, 145, 62);
+            }
+            li:hover{
+                background-color: rgba(189, 152, 84, 0.429);
+                color: rgb(201, 172, 172);
+            }  
+            .content{
+                display:flex;
+            }  
+            .cakes{
+                margin-left: 20px;
+                flex-grow: 50%;
+            } 
+            .products .offer{
+                flex-grow: 20%;
+            } 
+            .offer1{
+                border-color:#c67a70;
+                border-style: solid;
+                border-width: 2px;
+                border-radius: 4px;
+                /* border: 10px; */
+                margin: 10px;
+                margin-left: 50px;
+                color: #be5f52;
+                width: 300px;
+                height: 200px;
+                background-color: #e9cac5b0;
+            } 
+            
+        </style>
+    </head>
+    <body>
+        <div class="offer">
+            <p><marquee>Upto Rs. 200 OFF on the First Order. T&C apply</marquee></p><hr>
+        </div>
+        <header>
+            <div class="name">
+                <h2>Dessertz</h2>
+           </div>
+           <div class="menu">
+                <h4>About us</h4>
+                <h4>Products</h4>
+                <h4>Special dessert</h4>
+                <h4 ><input  class="search"type="search">Search</h4>
+                <h4>Find us</h4>
+                <h4>Locate us</h4>
+                
+           </div>
+        </header><hr>
+        <div class="content">
+        <div class="products">
+            <h3>Product</h3>
+            <h4>Desserts</h4>
+            <ul class="items">
+                <li>Banofee High</li>
+                <li>Lemon Tart</li>
+                <li>Chocolate and Caramel Tart</li>
+            </ul>
+            <h4>Cupcakes</h4>
+            <ul class="items">
+                <li>chocolate cupcake</li>
+                <li>Tiramisu Cupcake</li>
+                <li>Strawberry Cupcake</li>
+            </ul>
+        </div>
+        <div class="cakes">
+            <table>
+            <tr>
+            <td><img src="./ASSET/des1.webp" alt="dessert1" width="150" height="100">
+            <figcaption>Banofee High<br>₹ 150</figcaption></td>
+            <td><img src="./ASSET/des2.webp" alt="dessert1" width="150" height="100">
+            <figcaption>Lemon Tart<br>₹ 150</figcaption></td>
+            <td><img src="./ASSET/des3.webp" alt="dessert1" width="150" height="100">
+            <figcaption>chocolate cupcake<br>₹ 150</figcaption></td>
+            </tr>
+            <tr>
+            <td><img src="./ASSET/des4.webp" alt="dessert1">
+            <figcaption>Tiramisu Cupcake<br>₹ 150</figcaption></td>
+            <td><img src="./ASSET/des5.webp" alt="dessert1">
+            <figcaption>Chocolate & Caramel Tart<br>₹ 150</figcaption></td>
+            <td><img src="./ASSET/des6.webp" alt="dessert1">
+            <figcaption>Strawberry Cupcake<br>₹ 150</figcaption></td>
+            </tr>
+        
+        </table>
+        </div>
+        <div class="offer1">
+            <marquee><p>Summer sale!SALE200</p></marquee>
+            <p><b>claim your reward</b></p>
+            <input type="text" for="text" name="text" placeholder="SALE200">
+            <button>Claim reward</button>
+        </div>
+    </div>
+    </body>
+</html>
